@@ -1,0 +1,8 @@
+num=int(input("Pick a number, any number: "))
+
+if num%2==0:print("Thats an even number!")
+else:print("Odd - How odd!")
+if num%4==0: print("This number is also divisible by 4.")
+numone=int(input("Real quick, pick another number. "))
+if num%numone==0 or numone%num==0:print("Those divide into one another.")
+else:print("Those two numbers do not divide into one another")
